@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+a{ 
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    margin: 0; 
+    align: center;  
+}
+
+span {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ff7000;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 28;
+    margin: 0;
+}
+
+.opcoesparte1{
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+   margin: 100px;
+}
+
+.opcoesparte2{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+
+/*CSS relativo aos botões  */
+#button-calcular{
+    display: inline-flex;
+    height: 50px;
+    padding: 0px;    
+    background: #ff7000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px;
+}
+.button1 {
+    justify-content: space-between;    
+    display: inline-flex;
+    height: 50px;
+    width: 330px;    
+    padding: 0px;    
+    background: #ff7000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px; 
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px;
+}
+.button1:hover{
+    background: #da5f00;    
+}
+.button1:active{
+    background: #a04500;
+}
+.button-icon,
+.button-text{
+    font-size: 22px;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.button-text-orange {
+    font-weight: 400;
+    color: #ff7000;
+}
+
+.button-icon{    
+    background: rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: flex-end;
+}
+/*Fim do CSS dos botões */
+
+/*Campos de texto*/
+.textinput{
+    display: inline-flex;
+    height: 30px; 
+    padding: 2px;    
+    background: #ffc293;
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 10px;
+    border-bottom-color: #ff7000;
+    border-bottom-width: 4px;
+}
+/*Labels ralativas ao campo de texto*/
+.button-icon{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* CSS da página inicial */ 
+
+.seloprowaybranco{
+    width: 130px;
+    padding:10px;
+}
+
+.bank{
+    font-family: "Work Sans", sans-serif;
+    color:black;
+}
+
+.barralateral{
+    height: 1000px;
+    background-color: #ff7000;
+    padding: 20px;
+}
+
+.menuprodutos{
+    margin-top: 50px;
+    width: 220px;
+    height: 80px;
+    display:flex;
+    flex-direction: column;
+}
+
+.viewtelainicial{
+    display: flex;
+    background-color: #fff;
+}
+
+.paginainicial{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.produto{
+    display: block;
+    text-align: center;
+    border-radius: 10px;;
+    background-color:  #fff;
+    margin:5px;
+    width:210px;
+}
+
+.bemvindo{
+    display: flex;
+    color: black;
+    margin:20px;
+    padding:10px;
+    width: 30%;
+}
+
+.valor-saldo{
+    display: flex;
+    justify-content: space-between;
+    background-color:#C4C4C4;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    margin:10px;
+}
+
+.saldo-disponivel{
+    display: flex;
+    margin: 35px;
+    flex-direction: column;
+}
+
+.opcoes{    
+    width: 90px;
+    text-align: center;
+}
+
+.content-main{
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    margin:20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    justify-content: center;
+    text-align: center;
+}
+
+#selo-proway-footer {
+    width: 191.5px;
+}
+
+#text-proway-footer{
+    font-size: 50px;
+}
+
+.FormularioDoPerfil{
+
+    width: 100%;
+    background-color: grey;
+    justify-content: center;
+
+}
+
+.botoesmeufuturo{
+    display: flex;
+}
+/* Formulário do Perfil do Investidor */ 
+#perfil{
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff7000;
+    font-size: 20px;
+    
+
+}
+#texto1{
+    text-align: center;
+    
+    
+
+
+}
+#TextoResult{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    align-self: center;
+    background: #ff7000;
+}
+
+
+
+        
+
+    
+/* Resultado Perfil do Investidor */
+
+.perfil_button {
+    width: 230px;
+    height: 50px;
+    padding: 0px;    
+    background: #ff7000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.perfil_button_o {
+    margin-top: 20px;  
+    height: 50px;
+    width: 230px;
+    padding: 10px;    
+    background-color: white;
+    border: 2px solid #ff7000;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+   
+/* Página Investir (dentro de Investimentos) */
+
+.page {
+    display: block;
+    padding: 30px;
+}
+
+.investir_page {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#search_investir {
+    display: flex;
+    height: 30px;
+}
+
+#input_investir {
+    height: 100%; 
+    width: 100%;
+    background: #ffc293;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    font-weight: 500; 
+    border-bottom-color: #ff7000;
+    border-bottom-width: 4px;
+}
+
+.search-icon {  
+    height: 100%;  
+    background-color: #ff7000;
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cdb {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;   
+    padding: 20px;
+    box-shadow: 1px 5px 5px 5px rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.cdb_button {   
+    height: 50px;
+    padding: 0px;    
+    background: #ff7000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cdb_button_o { 
+    margin-top: 20px;  
+    height: 50px;
+    padding: 10px;    
+    background-color: white;
+    border: 2px solid #ff7000;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.cdb_button_position {
+    display: flex;
+    align-items: flex-end;
+}
+
+.info_cdb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info2_cdb {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+}
+
+.detalhe1_cdb {
+    display: flex;
+}
+
+.detalhe2_cdb {
+    display: flex;
+    align-items: flex-end;
+}
+
+.a_partir {
+    display: flex;
+    flex-direction: column;
+}
+
+.description1 {
+    font-size: 14px;
+}
+
+.green {
+    font-size: 16px;
+    color: rgb(124, 204, 19);
+}
+
+.bigger_value {
+    font-size: 20px;
+}
+
+
+/* Operação realizada com sucesso (op_realizada.html) */
+
+.op_realizada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.info_bigger {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+/* Tela Como Investir */
+
+.section-flex{
+    display: flex;   
+}
+
+#section-text-flex{
+    display: block;
+    margin: 50px;
+}
+
+.article-flex{
+    display: flex;
+}
